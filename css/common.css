@@ -29,7 +29,8 @@ button {
   flex-direction: column;
   gap: 16px;
 }
-img {
-  width: 340px;;
-}
 
+img {
+  width: 340px;
+  ;
+}

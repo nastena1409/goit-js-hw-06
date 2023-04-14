@@ -20,5 +20,3 @@ const itemsEl = ingredients.map(item => {
 console.log(itemsEl);
 console.log(ingredients)
 itemsList.append(...itemsEl)
-
- 
