@@ -8,14 +8,15 @@ function getRandomHexColor() {
 const refs = {
   body: document.querySelector('body'),
   changeColorBtn: document.querySelector('.change-color'),
-  colorValue: document.querySelector('.color'),
+  spanColor: document.querySelector('.color'),
 }
 
 refs.changeColorBtn.addEventListener('click', onChangeColor);
 
 function onChangeColor() {
-  
-  refs.body.style.backgroundColor = getRandomHexColor();
-  refs.colorValue.textContent = getRandomHexColor();
+  let randomHexColor = getRandomHexColor();
+
+  refs.body.style.backgroundColor = randomHexColor;
+  refs.spanColor.textContent = randomHexColor;   
 }
   
